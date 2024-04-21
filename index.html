@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+</head>
+<body>
+    <h2>Cart App</h2>
+
+    <button onclick="disp(cq)">Show amount</button>
+    <button onclick="cq++; console.log(`Added to cart`)">Add to Cart</button>
+    <button onclick="cq+=2; console.log(`Added 2 item to cart`)">+2</button>
+    <button onclick="cq+=3; console.log(`Added 3 item to cart`)">+3</button>
+    <button onclick="cq = 0; console.log('Cart has been reset')">Reset Cart</button>
+
+    <div class="cont">
+        <p id="balls" onclick="">Press Button for action</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
